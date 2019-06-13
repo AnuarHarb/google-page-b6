@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --google-gray: #eaeaea;
+}
+
+header {
+  padding: 10px 0;
+  text-align: right;
+}
+
+header div {
+  margin-left: auto;
+  display: inline-block;
+}
+
+header a,
+header img,
+header button {
+  margin: 5px;
+  vertical-align: middle;
+}
+
+header a {
+  color: #575757;
+  font-family: arial;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header button {
+  padding: 8px 14px;
+  background-image: linear-gradient(to top, #4387fd, #4683ea);
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.google-logo {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.google-logo img {
+  width: 300px;
+}
+
+.google-input {
+  text-align: center;
+}
+
+.google-input-border {
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  margin: 10px auto;
+  width: 400px;
+  padding: 10px 0;
+  box-shadow: 0px 2px 10px 1px lightgrey;
+}
+
+.google-input input {
+  border: none;
+  font-size: 20px;
+  width: 80%;
+}
+
+.google-input input:focus {
+  outline: none;
+}
+
+.google-input img {
+  vertical-align: middle;
+  width: 15px;
+}
+
+.google-buttons {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.google-buttons button {
+  background-color: var(--google-gray);
+  padding: 10px 15px;
+  font-size: 12px;
+  border: 1px solid var(--google-gray);
+  border-radius: 4px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.google-buttons button:hover {
+  border-color: darkgray;
+}
+
+.google-buttons button:focus {
+  outline: none;
+}
+
+.google-mirror {
+  text-align: center;
+}
+
+footer {
+  border: 1px solid gray;
+  background-color: var(--google-gray);
+  position: absolute;
+  bottom: 0;
+  /* width: 100%; */
+  right: 0;
+  left: 0;
+}
+
+footer section {
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+}
+
+footer section div {
+  display: inline-block;
+}
+
+footer section div:last-of-type {
+  float: right;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+}
